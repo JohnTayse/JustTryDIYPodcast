@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+	<atom:link href="https://johntayse.github.io/justtrydiypodcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <title>Just Try DIY</title>
+    <author>John Tayse</author>
+    <image>
+      <url>https://johntayse.github.io/justtrydiypodcast/img/icon.jpg</url>
+      <title>Just Try DIY Podcast</title>
+      <link>https://johntayse.github.io/justtrydiypodcast/</link>
+    </image>
+    <copyright>John Tayse Productions 2020</copyright>
+    <description>The frequently in-frequent podcast for home improvement and DIY enthusiasts.</description>
+    <link>https://johntayse.github.io/justtrydiypodcast/feed.xml</link>
+    <language>en-us</language>
+    <pubDate>Sun, 28 Jun 2020 17:00:00 EDT</pubDate>
+    <itunes:author>John Tayse</itunes:author>
+    <itunes:email>jctayse@gmail.com</itunes:email>
+    <itunes:category text="Education" />
+    <itunes:subcategory text="How To" />
+    <itunes:owner>
+      <itunes:name>John Tayse</itunes:name>
+      <itunes:email>jctayse@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:keywords>diy,home,improvement,repair</itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://johntayse.github.io/justtrydiypodcast/img/icon.jpg" />
+    <googleplay:author>John Tayse</googleplay:author>
+    <googleplay:image href="https://johntayse.github.io/justtrydiypodcast/img/icon.jpg" />
+    <item>
+      <author>John Tayse</author>
+      <title>Episode 0 - Preview</title>
+      <pubDate>Sun, 28 Jun 2020 21:00:00 GMT</pubDate>
+      <enclosure url="https://johntayse.github.io/justtrydiypodcast/audio/0-preview.mp3" type="audio/mpeg" length="1" />
+      <guid isPermaLink="false">jtpod01</guid>
+      <itunes:author>John Tayse</itunes:author>
+      <itunes:duration>1:01</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <description>
+The Just Try DIY Podcast is coming!
+
+Make sure to subscribe and follow us on Instagram
+
+https://instagram.com/justtrydiypodcast
+
+Or find the podcast online: 
+
+https://johntayse.github.io/justtrydiypodcast/
+        </description>
+    </item>
+  </channel>
+</rss>

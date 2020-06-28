@@ -47864,7 +47864,7 @@ B.Na.prototype={
 $1:function(a){return T.xl(a)},
 $S:318}
 B.Nb.prototype={
-$0:function(){return T.xl("https://open.spotify.com/show/3UTiK34aDOOSHFpGQ0RglN")},
+$0:function(){return T.xl("https://open.spotify.com/show/")},
 $S:319}
 T.A_.prototype={
 R:function(a){return new A.Ao(new T.OL(this,a,Y.a61(a,!1,t.ji)),null)},

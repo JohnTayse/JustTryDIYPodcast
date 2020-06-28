@@ -47838,7 +47838,7 @@ lK:function(a){var s=0,r=P.ah(t.z),q=this,p
 var $async$lK=P.ac(function(b,c){if(b===1)return P.ae(c,r)
 while(true)switch(s){case 0:p=q.c
 s=2
-return P.ar(X.RN("https://johntayse.github.io/justtrydiypodcast/feed.xml"),$async$lK)
+return P.ar(X.RN("https://johntayse.github.io/JustTryDIYPodcast/feed.xml"),$async$lK)
 case 2:p.sp(0,c)
 return P.af(null,r)}})
 return P.ag($async$lK,r)},
@@ -47859,7 +47859,7 @@ n=Q.Q_(q,o,q,L.eq(H.b(m.b),q,q,q,q),n,q)
 o=L.jk(C.wi,q,q)
 s=L.eq("Author",q,q,q,q)
 r=t.t
-return M.a2o(p,E.a6h(E.a6k(T.a4D(H.a([n,Q.Q_(q,o,q,L.eq(H.b(m.r),q,q,q,q),s,q),new M.AC(!0,m.c,!1,q,q,q,new B.Na(),q,q,q,q,q),new T.eF(C.a7,q,q,T.a2K(C.y,H.a([M.kC(q,D.zR(q,U.ra("https://johntayse.github.io/justtrydiypodcast/img/spotify.png",q,q),C.ae,!1,q,q,q,q,q,q,q,q,q,q,q,new B.Nb(),q,q,q,q,q,q),q,q,q,q,q,C.aY,300)],r),C.nm),q)],r),C.iE,C.jG),q,C.l)),q)}}
+return M.a2o(p,E.a6h(E.a6k(T.a4D(H.a([n,Q.Q_(q,o,q,L.eq(H.b(m.r),q,q,q,q),s,q),new M.AC(!0,m.c,!1,q,q,q,new B.Na(),q,q,q,q,q),new T.eF(C.a7,q,q,T.a2K(C.y,H.a([M.kC(q,D.zR(q,U.ra("https://johntayse.github.io/JustTryDIYPodcast/img/spotify.png",q,q),C.ae,!1,q,q,q,q,q,q,q,q,q,q,q,new B.Nb(),q,q,q,q,q,q),q,q,q,q,q,C.aY,300)],r),C.nm),q)],r),C.iE,C.jG),q,C.l)),q)}}
 B.Na.prototype={
 $1:function(a){return T.xl(a)},
 $S:318}
@@ -47894,7 +47894,7 @@ T.OH.prototype={
 $1:function(a){return new B.kQ(this.a,null)},
 $S:323}
 T.OD.prototype={
-$0:function(){T.xl("feed:https://johntayse.github.io/justtrydiypodcast/feed.xml")},
+$0:function(){T.xl("feed:https://johntayse.github.io/JustTryDIYPodcast/feed.xml")},
 $C:"$0",
 $R:0,
 $S:0}

@@ -5,7 +5,7 @@
     <title>Just Try DIY</title>
     <author>John Tayse</author>
     <image>
-      <url>https://johntayse.github.io/JustTryDIYPodcast/img/icon.jpg</url>
+      <url>https://johntayse.github.io/JustTryDIYPodcast/img/icon.png</url>
       <title>Just Try DIY Podcast</title>
       <link>https://johntayse.github.io/JustTryDIYPodcast/</link>
     </image>
@@ -24,9 +24,9 @@
     </itunes:owner>
     <itunes:keywords>diy,home,improvement,repair</itunes:keywords>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://johntayse.github.io/JustTryDIYPodcast/img/icon.jpg" />
+    <itunes:image href="https://johntayse.github.io/JustTryDIYPodcast/img/icon.png" />
     <googleplay:author>John Tayse</googleplay:author>
-    <googleplay:image href="https://johntayse.github.io/JustTryDIYPodcast/img/icon.jpg" />
+    <googleplay:image href="https://johntayse.github.io/JustTryDIYPodcast/img/icon.png" />
     <item>
       <author>John Tayse</author>
       <title>Episode 0 - Preview</title>

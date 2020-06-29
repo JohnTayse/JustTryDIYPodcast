@@ -42,9 +42,27 @@ class EpisodeDetails extends StatelessWidget {
                       width: 300,
                       padding: const EdgeInsets.all(8.0),
                       child: GestureDetector(
+                        onTap: () => launch(kiTunesLink),
+                        child: Image.network(
+                            'https://johntayse.github.io/JustTryDIYPodcast/img/itunes.png'),
+                      ),
+                    ),
+                    Container(
+                      width: 300,
+                      padding: const EdgeInsets.all(8.0),
+                      child: GestureDetector(
                         onTap: () => launch(kSpotifyLink),
                         child: Image.network(
                             'https://johntayse.github.io/JustTryDIYPodcast/img/spotify.png'),
+                      ),
+                    ),
+                    Container(
+                      width: 300,
+                      padding: const EdgeInsets.all(8.0),
+                      child: GestureDetector(
+                        onTap: () => launch(kGoogleLink),
+                        child: Image.network(
+                            'https://johntayse.github.io/JustTryDIYPodcast/img/google.png'),
                       ),
                     ),
                   ],

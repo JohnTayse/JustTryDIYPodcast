@@ -6,7 +6,7 @@ const RESOURCES = {
   "img/justtrydiypodcasticon.png": "96965f4ccc072017513ae67c0fb0ff22",
 "img/icon.png": "96965f4ccc072017513ae67c0fb0ff22",
 "img/spotify.png": "0a5ef7a942cb1d9a64169f57ba1a05c3",
-"img/itunes.png": "48307a996f0982d85e4e7f8e6f16b730",
+"img/itunes.png": "fa1c7d35b775143c5fc655407eab8642",
 "img/google.png": "0c00681e9f3551945ce6e3e6fb5f2391",
 "img/justtrydiypodcasticon.html": "c23bb95ae03d5e1295139c5491d47639",
 "img/icon.jpg": "24f17354de8abacd8213b4ad4979f2ad",

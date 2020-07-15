@@ -7,17 +7,20 @@ const RESOURCES = {
 "img/icon.png": "96965f4ccc072017513ae67c0fb0ff22",
 "img/spotify.png": "0a5ef7a942cb1d9a64169f57ba1a05c3",
 "img/itunes.png": "fa1c7d35b775143c5fc655407eab8642",
+"img/justtrydiypodcasticoncentered.html": "994e8751dd033f1faa06f14231fbdfeb",
+"img/justtrydiypodcasticoncentered.png": "80cc4ce6cb53a99f3b4bf8c1b4ba2a71",
 "img/google.png": "0c00681e9f3551945ce6e3e6fb5f2391",
 "img/justtrydiypodcasticon.html": "c23bb95ae03d5e1295139c5491d47639",
 "img/icon.jpg": "24f17354de8abacd8213b4ad4979f2ad",
-"main.dart.js": "601bc90a42607981668c050c63182985",
+"main.dart.js": "d3ae187fd66a61f6cc84c3dca8cbbf40",
 "favicon.png": "5b9fdc0b0804691c7e6235dbb075afd6",
-"feed.xml": "b23a4887909901301184416642748f9f",
+"feed.xml": "5dcd13638e0d1fe54d0fb627a7f23273",
 "manifest.json": "d22568609cfc8c6f061b3c01fe5b800b",
 "audio/0-preview.mp3": "8c14f1731f757f074b0ef36f93b072b2",
+"audio/1-paint.mp3": "f45e7525eee59290b03cbc8b8f53515b",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
 "assets/FontManifest.json": "01700ba55b08a6141f33e168c4a6c22f",
-"assets/NOTICES": "2d8cb18d5545aca1fc9776937b523eae",
+"assets/NOTICES": "8543f975b83efa6b18d337b2b39d2cae",
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/AssetManifest.json": "0d266ffbe90dae02458487c9d33b7373",
@@ -115,7 +118,7 @@ self.addEventListener("fetch", (event) => {
   if (event.request.url == origin || event.request.url.startsWith(origin + '/#')) {
     key = '/';
   }
-  // If the URL is not the the RESOURCE list, skip the cache.
+  // If the URL is not the RESOURCE list, skip the cache.
   if (!RESOURCES[key]) {
     return event.respondWith(fetch(event.request));
   }
@@ -138,11 +141,11 @@ self.addEventListener("fetch", (event) => {
 self.addEventListener('message', (event) => {
   // SkipWaiting can be used to immediately activate a waiting service worker.
   // This will also require a page refresh triggered by the main worker.
-  if (event.data == 'skipWaiting') {
+  if (event.data === 'skipWaiting') {
     return self.skipWaiting();
   }
 
-  if (event.message = 'downloadOffline') {
+  if (event.message === 'downloadOffline') {
     downloadOffline();
   }
 });

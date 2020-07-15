@@ -15,12 +15,12 @@
     <language>en-us</language>
     <pubDate>Sun, 28 Jun 2020 17:00:00 EDT</pubDate>
     <itunes:author>John Tayse</itunes:author>
-    <itunes:email>jctayse@gmail.com</itunes:email>
+    <itunes:email>justtrydiypodcast@gmail.com</itunes:email>
     <itunes:category text="Education" />
     <itunes:subcategory text="How To" />
     <itunes:owner>
       <itunes:name>John Tayse</itunes:name>
-      <itunes:email>jctayse@gmail.com</itunes:email>
+      <itunes:email>justtrydiypodcast@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:keywords>diy,home,improvement,repair</itunes:keywords>
     <itunes:explicit>no</itunes:explicit>
@@ -43,7 +43,28 @@ Make sure to subscribe and follow us on Instagram
 
 https://instagram.com/JustTryDIYPodcast
 
-Or find the podcast online: 
+Or find the podcast online:
+
+https://johntayse.github.io/JustTryDIYPodcast/
+        </description>
+    </item>
+    <item>
+      <author>John Tayse</author>
+      <title>Episode 1 - Paint</title>
+      <pubDate>Wed, 15 Jul 2020 09:00:00 GMT</pubDate>
+      <enclosure url="https://johntayse.github.io/JustTryDIYPodcast/audio/1-paint.mp3" type="audio/mpeg" length="1" />
+      <guid isPermaLink="false">jtpod02</guid>
+      <itunes:author>John Tayse</itunes:author>
+      <itunes:duration>15:50</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <description>
+In this inaugural episode, we discuss paint! What it is, what you need, and what to do!
+
+Make sure to subscribe and follow us on Instagram
+
+https://instagram.com/JustTryDIYPodcast
+
+Or find the podcast online:
 
 https://johntayse.github.io/JustTryDIYPodcast/
         </description>
